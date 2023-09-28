@@ -2,6 +2,7 @@
 
 let books = [];
 
+//Konstruktor Funktion für Book Objekt
 function Book(title, author, pages, read) {
     this.id = Math.random().toString();
     this.title = title;
